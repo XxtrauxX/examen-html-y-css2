@@ -1,0 +1,428 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    display: grid;
+    background-image: url('recursos-20241030T232559Z-001/recursos/propiedades.jpg');
+    background-repeat:no-repeat;
+    background-position: auto;
+    height: 100vw;
+    
+
+}
+
+nav {
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(212, 211, 211);
+    justify-content: flex-end;
+    gap: 60px;
+    height: 3vw;
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+header{
+
+ 
+
+}
+
+aside
+
+.contenedor {
+
+
+    grid-template-areas: 
+    "header "
+    "aside"
+    "content"
+    "footer";
+
+    background-color: red;
+}
+
+
+.contenido {
+
+
+}
+
+
+.recuadro  {
+
+    width: 40%;
+    height: 320px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 460px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 27px;
+    font-size: 46px;
+}
+
+
+.text {
+
+    
+}
+
+
+.caja-recuadro {
+
+    width: 31%;
+    height: 18%;
+    margin-top: 13%;
+    margin-left: 21%;
+    border: 1px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40%;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+
+.caja2-recuadro {
+
+
+    width: 31%;
+    height: 18%;
+    background-color: rgb(75, 73, 73);
+    margin-left: 55%;
+    margin-top: -7.9%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40%;
+    padding: 5px;
+    color: white;
+    border-radius: 5%;
+
+    
+}
+
+
+.parte-2 {
+
+    background-color: gray;
+    height: 60vw;
+    padding: 10%;
+}
+
+.titulo {
+
+    color: white;
+    font-size: 213%;
+    margin-top: 23px;
+    margin-left: 240px;
+}
+
+
+
+
+.texto-parte2 {
+
+
+    color: white;
+    font-size: 127%;
+    margin-left: 240px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+
+.imagen-per {
+
+
+    width: 650px;
+    height: 690px;
+    margin-left: 600px;
+    margin-top: -310px;
+
+
+}
+
+
+.parte-3 {
+
+    background-color: white;
+    height: 50vw;
+    padding: 17px;
+    color: brown;
+}
+
+
+.anuncio {
+
+
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    font-weight: 200;
+
+  
+
+}
+
+
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+
+
+}
+
+
+.item {
+
+    width: 310px;
+    height: 300px;
+    background-color: red;
+    border-radius: 4%;
+
+
+}
+
+
+
+.item:first-child {
+
+    margin-top:103px;
+    background-image: url('recursos-20241030T232559Z-001/recursos/casa-1.jpg');
+    background-position: 0%;
+}
+
+
+.item:nth-child(2) {
+
+    background-image: url('recursos-20241030T232559Z-001/recursos/casa-2.jpg');
+    background-position: 0%;
+    margin-top: 199px;
+}
+
+
+.item:nth-child(3) {
+
+    background-image: url('recursos-20241030T232559Z-001/recursos/casa-3.jpg');
+    background-position: 0%;
+
+}
+
+
+
+
+.descrip {
+
+    font-weight: 100;
+    margin-left: 200px;
+    font-family:sans-serif;
+    margin-top: -70px;
+    font-size: 20px;
+    
+
+    
+
+}
+
+
+.descrip-2{
+
+    font-weight: 100;
+    margin-left: 640px;
+    font-family:sans-serif;
+    margin-top: -70px;
+    font-size: 20px;
+    
+
+    
+
+}
+
+
+
+
+.descrip-3{
+
+    font-weight: 100;
+    margin-left: 1080px;
+    font-family:sans-serif;
+    margin-top: -311px;
+    font-size: 20px;
+    
+
+    
+
+}
+
+
+
+
+.parte-4 {
+
+
+    background-color: white;
+    border-top: 3px solid lightslategray;
+
+    height: 55vw;
+
+}
+
+
+.ventas {
+    
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+
+.container2 {
+
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+
+
+}
+
+
+.itemm {
+
+    width: 310px;
+    height: 300px;
+    background-color: red;
+    border-radius: 4%;
+
+
+}
+
+
+
+.itemm:first-child {
+
+    margin-top:103px;
+    background-image: url('recursos-20241030T232559Z-001/recursos/casa-4.jpg');
+    background-position: 0%;
+}
+
+
+.itemm:nth-child(2) {
+
+    background-image: url('recursos-20241030T232559Z-001/recursos/casa-5.jpg');
+    background-position: 0%;
+    margin-top: 199px;
+}
+
+
+.itemm:nth-child(3) {
+
+    background-image: url('recursos-20241030T232559Z-001/recursos/casa-6.jpg');
+    background-position-x: center;
+    background-position-y:35%;
+    margin-top: 103px;
+
+}
+
+
+.texto-ventas {
+
+
+    font-weight: 100;
+    margin-left: 200px;
+    font-family:sans-serif;
+    margin-top: -70px;
+    font-size: 20px;
+    color: brown;
+    
+
+}
+
+
+.texto2-ventas {
+
+
+
+     font-weight: 100;
+    margin-left: 650px;
+    font-family:sans-serif;
+    margin-top: -70px;
+    font-size: 20px;
+    color: brown;
+    
+
+
+    
+}
+
+
+
+.texto3-ventas {
+
+    font-weight: 100;
+    margin-left: 1099px;
+    font-family:sans-serif;
+    margin-top: -270px;
+    font-size: 20px;
+    color: brown;
+
+}
+
+
+.parte-5 {
+
+    background-color: lightblue;
+    height: 45vw;
+    padding: 60px;
+
+}
+
+.dicen {
+
+    font-size: 50px;
+    color: rgb(83, 20, 20);
+    font-weight: 200;
+    margin-left: 50px;
+    
+    
+
+}
+
+
+.texto-parte5 {
+
+    font-weight: 100;
+    margin-left: 40px;
+    font-family:sans-serif;
+    margin-top: 200px;
+    font-size: 20px;
+    color:brown;
+}
+
+.texto2-parte5 {
+
+    font-weight: 100;
+    margin-left: 640px;
+    font-family:sans-serif;
+    margin-top: -36px;
+    font-size: 20px;
+    color:brown;
+}
+
